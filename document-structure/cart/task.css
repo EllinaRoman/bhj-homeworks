@@ -89,3 +89,14 @@ body {
 .product-shadow {
   position: absolute;
 }
+
+
+.btn__delete {
+  text-decoration: none;
+  font-size: 30px;
+  color: red;
+}
+
+.hidden {
+    display: none;
+}
