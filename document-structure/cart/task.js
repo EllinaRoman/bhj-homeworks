@@ -104,6 +104,7 @@ cart.addEventListener('click', (e) => {
     const btn = e.target.closest('.btn__delete');
 
     if (btn) {
+        e.preventDefault();
         btn.closest('.cart__product').remove();
     }
     save();
